@@ -1,7 +1,7 @@
 import {useEffect, useState} from "react";
 import UserData from "./components/UserData.jsx";
 
-const API = "https://mock_e9de1d5300da4ee2ac3fe7cd4c029f25.mock.insomnia.rest/data";
+const API = "https://mock_e9de1d5300da4ee2ac3fe7cd4c029f25.mock.insomnia.rest/data1";
 
 const App = () => {
     const [users, setUsers] = useState([]);
